@@ -1,0 +1,57 @@
+/* common shared styles */
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.text-primary{
+    color: #FF5400;
+}
+
+/* nav style */
+.div1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-image{
+    margin-top: 35px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.nav-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #424247;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 15px;
+    font-weight: 400;
+}
+nav>.nav-title{
+    
+}
