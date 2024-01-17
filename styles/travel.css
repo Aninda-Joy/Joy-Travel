@@ -237,8 +237,9 @@ nav a {
     display: flex;
     gap: 20px;
 }
+
 /* chosen section */
-.chosen-section-img{
+.chosen-section-img {
     padding-top: 32px;
 }
 
@@ -272,7 +273,7 @@ nav a {
     padding-left: 32px;
     padding-right: 50px;
     padding-bottom: 32px;
-    
+
 }
 
 .chosen-section-header {
@@ -288,4 +289,76 @@ nav a {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+}
+
+/* subscriber section */
+.subscriber-section {
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+
+}
+
+.subscriber-section-div1 {
+    background: #FFF;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+.subscriber-input {
+    border-radius: 8px;
+    border: 0;
+    background: rgba(19, 19, 24, 0.05);
+    width: 390px;
+    height: 50px;
+    margin-top: 15px;
+
+}
+
+.subscriber-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    border: 0;
+    width: 390px;
+    height: 50px;
+    margin-top: 15px;
+
+}
+
+.subscriber-section-div2 {
+    
+    background-size: cover;
+    width: 670px;
+    height: 420px;
+}
+
+.save-up {
+    border-radius: 15px;
+    background: #FF5400;
+    color: #FFF;
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    bottom: 165px;
+    left: 350px;
+    transform: rotate(-19.628deg);
+}
+
+.save-up-par {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.save-up-h2 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 25px;
+    font-weight: 600;
 }
