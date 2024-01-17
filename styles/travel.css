@@ -108,7 +108,7 @@ nav a {
 }
 
 .bannerH1 {
-    font-size: 55px;
+    font-size: 45px;
     width: 500px;
     color: white;
     font-weight: 800;
@@ -489,6 +489,6 @@ main {
     }
     .img-section{
         display: grid;
-        flex-direction: column;
+        
     }
 }
